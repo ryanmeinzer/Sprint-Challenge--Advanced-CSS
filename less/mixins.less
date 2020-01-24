@@ -1,1 +1,25 @@
 // Mixins Here
+
+.nav-style-mixin () {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: @header-font-color;
+    text-decoration: none;
+  }
+
+.gradient-background-mixin () {
+    background-image: linear-gradient(#dddddd,#f1f1f1);
+    border-bottom: 2px #dddddd;
+}
+
+.sign-up-button (@width: 100px, @font-color:white){
+	display: flex;
+    background-color: #212F3D;
+    width: @width; 
+    color: @font-color;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 1.9rem;
+    border-radius: 5px;
+}

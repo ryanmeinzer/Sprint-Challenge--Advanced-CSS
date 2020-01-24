@@ -1,1 +1,22 @@
 // Navigation code here
+
+.navigation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10rem;
+    .gradient-background-mixin;
+    @media @phone {
+        height: 13rem;
+      }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    @media @phone {
+        width: 80%;
+      }
+}
