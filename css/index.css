@@ -235,6 +235,21 @@ a {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  display: flex;
+  background-color: #212F3D;
+  width: 100px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 1.9rem;
+  border-radius: 10px;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: lightgray;
+  color: darkgray;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
